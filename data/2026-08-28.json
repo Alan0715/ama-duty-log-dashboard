@@ -1,20 +1,16 @@
 {
-  "synced_at": "2026-08-29T11:35:17+08:00",
+  "synced_at": "2026-08-29T12:02:01+08:00",
   "business_date": "2026-08-28",
   "template": "值班管理日志3.0-测试",
   "expected_store_count": 34,
-  "record_count": 32,
+  "record_count": 33,
   "audit": {
-    "missing_log_count": 2,
+    "missing_log_count": 1,
     "suspected_anomaly_count": 0,
     "duplicate_image_store_count": 0,
     "missing_stores": [
       {
         "store": "深圳仁恒梦中心店",
-        "reason": "未找到该业务日值班日志"
-      },
-      {
-        "store": "深圳欢乐港湾店",
         "reason": "未找到该业务日值班日志"
       }
     ],
@@ -23,7 +19,7 @@
     "date_rule": "按值班日志内选择的业务日期归属，不按日志提交时间归属",
     "duplicate_rule": "仅与其他业务日期的历史效期图片按SHA-256比对；同一业务日期内部相同图片不计入重复图片",
     "duplicate_check": {
-      "current_image_count": 105,
+      "current_image_count": 106,
       "historical_image_count": 917,
       "cross_business_date_match_count": 0
     }
@@ -193,6 +189,22 @@
       "weekly_operation_images": [
         "https://static.dingtalk.com/media/lADPM2XVfMpqWzvNBQDNA8A_960_1280.jpg"
       ]
+    },
+    {
+      "report_id": "1a04ba054b2fb853b878e47481a9f4e4",
+      "template": "值班管理日志3.0-测试",
+      "creator": "杨炜斌",
+      "store": "深圳欢乐港湾店",
+      "department": "深圳欢乐港湾店",
+      "business_date": "2026-08-28",
+      "create_time": 1787975194000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPD2dDdIgoWfvNBQDNA8E_961_1280.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lADPM1rRJRJEEbvNAvbNBJs_1179_758.jpg"
+      ],
+      "weekly_operation_images": []
     },
     {
       "report_id": "1a048dac3634f155d12866c48beb28af",
