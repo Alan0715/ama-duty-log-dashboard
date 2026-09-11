@@ -2,15 +2,31 @@
   "synced_at": "2026-08-24T10:41:36+08:00",
   "business_date": "2026-08-13",
   "template": "值班管理日志3.0-测试",
-  "expected_store_count": 34,
-  "record_count": 27,
+  "expected_store_count": 33,
+  "record_count": 26,
   "audit": {
     "missing_log_count": 7,
-    "suspected_anomaly_count": 0,
+    "suspected_anomaly_count": 1,
     "duplicate_image_store_count": 0,
     "missing_stores": [
       {
+        "store": "深圳平安金融中心店",
+        "reason": "未找到该业务日值班日志"
+      },
+      {
+        "store": "深圳kkone店",
+        "reason": "未找到该业务日值班日志"
+      },
+      {
         "store": "厦门SM新生活广场店·集",
+        "reason": "未找到该业务日值班日志"
+      },
+      {
+        "store": "广州太古汇店",
+        "reason": "未找到该业务日值班日志"
+      },
+      {
+        "store": "广州天环广场店",
         "reason": "未找到该业务日值班日志"
       },
       {
@@ -20,28 +36,23 @@
       {
         "store": "广州天汇广场店",
         "reason": "未找到该业务日值班日志"
-      },
-      {
-        "store": "广州天环广场店",
-        "reason": "未找到该业务日值班日志"
-      },
-      {
-        "store": "广州太古汇店",
-        "reason": "未找到该业务日值班日志"
-      },
-      {
-        "store": "深圳kkone店",
-        "reason": "未找到该业务日值班日志"
-      },
-      {
-        "store": "深圳平安金融中心店",
-        "reason": "未找到该业务日值班日志"
       }
     ],
-    "suspected_anomalies": [],
+    "suspected_anomalies": [
+      {
+        "store": "深圳万象食家店",
+        "creator": "林宇诗",
+        "reason": "未上传每日报数照片"
+      }
+    ],
     "duplicate_images": [],
     "date_rule": "按值班日志内选择的业务日期归属，不按日志提交时间归属",
-    "duplicate_rule": "照片异常需显示具体原因；重复照片同时显示匹配的业务日期和门店"
+    "duplicate_rule": "照片异常需显示具体原因；重复照片同时显示匹配的业务日期和门店",
+    "duplicate_check": {
+      "current_image_count": 26,
+      "historical_image_count": 2174,
+      "cross_business_date_match_count": 0
+    }
   },
   "records": [
     {
@@ -327,22 +338,6 @@
       ],
       "daily_report_images": [
         "https://static.dingtalk.com/media/lADPD0istLCBPI_NBMHNBBk_1049_1217.jpg"
-      ],
-      "weekly_operation_images": []
-    },
-    {
-      "report_id": "19ffbb402a78677360e6a4840489e0cf",
-      "template": "值班管理日志3.0-测试",
-      "creator": "杨炜斌",
-      "store": "深圳欢乐港湾店",
-      "department": "深圳欢乐港湾店",
-      "business_date": "2026-08-13",
-      "create_time": 1786634306000,
-      "expiry_images": [
-        "https://static.dingtalk.com/media/lADPM2JiXjQYe8_NBQDNA8E_961_1280.jpg"
-      ],
-      "daily_report_images": [
-        "https://static.dingtalk.com/media/lALPM3gOSTkB_Y_NBybNBfg_1528_1830.png"
       ],
       "weekly_operation_images": []
     },

@@ -2,35 +2,21 @@
   "synced_at": "2026-09-10T10:16:05+08:00",
   "business_date": "2026-09-09",
   "template": "值班管理日志3.0-测试",
-  "expected_store_count": 34,
-  "record_count": 34,
+  "expected_store_count": 33,
+  "record_count": 33,
   "audit": {
     "missing_log_count": 0,
     "suspected_anomaly_count": 0,
-    "duplicate_image_store_count": 1,
+    "duplicate_image_store_count": 0,
     "missing_stores": [],
     "suspected_anomalies": [],
-    "duplicate_images": [
-      {
-        "store": "深圳天安云谷店",
-        "creator": "王海洋",
-        "reason": "效期图片与其他业务日期重复（SHA-256一致）",
-        "matches": [
-          {
-            "sha256": "9bf045cfab6cdc47ccb2448a9407bce817242f6c73eb68b16f8c309c911a6cb7",
-            "date": "2026-09-08",
-            "store": "深圳天安云谷店",
-            "image_url": "https://static.dingtalk.com/media/lADPM2UVlZzy8ofNBQDNA8A_960_1280.jpg"
-          }
-        ]
-      }
-    ],
+    "duplicate_images": [],
     "date_rule": "按值班日志内选择的业务日期归属，不按日志提交时间归属",
     "duplicate_rule": "仅与其他业务日期的历史效期图片按SHA-256比对；同一业务日期内部相同图片不计入重复图片",
     "duplicate_check": {
-      "current_image_count": 101,
-      "historical_image_count": 2030,
-      "cross_business_date_match_count": 1
+      "current_image_count": 100,
+      "historical_image_count": 2100,
+      "cross_business_date_match_count": 0
     }
   },
   "records": [
@@ -164,24 +150,6 @@
       ],
       "weekly_operation_images": [
         "https://static.dingtalk.com/media/lADPM2h-suozud_NC9DND8A_4032_3024.jpg"
-      ]
-    },
-    {
-      "report_id": "1a086a67c48f533d23307b5464eb207e",
-      "template": "值班管理日志3.0-测试",
-      "creator": "吴伟",
-      "store": "深圳欢乐港湾店",
-      "department": "深圳欢乐港湾店",
-      "business_date": "2026-09-09",
-      "create_time": 1788965453000,
-      "expiry_images": [
-        "https://static.dingtalk.com/media/lADPM2-Hf7gXxt_NBQDNA8A_960_1280.jpg"
-      ],
-      "daily_report_images": [
-        "https://static.dingtalk.com/media/lALPM2GseCaRVF_NAzbNBP8_1279_822.png"
-      ],
-      "weekly_operation_images": [
-        "https://static.dingtalk.com/media/lADPM2c3R9rJjN_NA8DNBQA_1280_960.jpg"
       ]
     },
     {

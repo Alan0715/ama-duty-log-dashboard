@@ -2,8 +2,8 @@
   "synced_at": "2026-08-24T10:41:36+08:00",
   "business_date": "2026-08-23",
   "template": "值班管理日志3.0-测试",
-  "expected_store_count": 34,
-  "record_count": 33,
+  "expected_store_count": 33,
+  "record_count": 32,
   "audit": {
     "missing_log_count": 1,
     "suspected_anomaly_count": 1,
@@ -25,8 +25,8 @@
     "date_rule": "按值班日志内选择的业务日期归属，不按日志提交时间归属",
     "duplicate_rule": "仅与其他业务日期的历史效期图片按SHA-256比对；同一业务日期内部相同图片不计入重复图片",
     "duplicate_check": {
-      "current_image_count": 64,
-      "historical_image_count": 275,
+      "current_image_count": 63,
+      "historical_image_count": 2137,
       "cross_business_date_match_count": 0
     }
   },
@@ -470,22 +470,6 @@
       ],
       "daily_report_images": [
         "https://static.dingtalk.com/media/lADPD1QB_nP7dmPNA6XNAyA_800_933.jpg"
-      ],
-      "weekly_operation_images": []
-    },
-    {
-      "report_id": "1a02f18e3799660e878544142ba91b58",
-      "template": "值班管理日志3.0-测试",
-      "creator": "杨炜斌",
-      "store": "深圳欢乐港湾店",
-      "department": "深圳欢乐港湾店",
-      "business_date": "2026-08-23",
-      "create_time": 1787496555000,
-      "expiry_images": [
-        "https://static.dingtalk.com/media/lADPM16VNXNSJEPNBQDNA8E_961_1280.jpg"
-      ],
-      "daily_report_images": [
-        "https://static.dingtalk.com/media/lADPM3hyVJsbhQPNBQDNBC0_1069_1280.jpg"
       ],
       "weekly_operation_images": []
     },

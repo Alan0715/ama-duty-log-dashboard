@@ -2,14 +2,25 @@
   "synced_at": "2026-09-07T12:12:33+08:00",
   "business_date": "2026-09-06",
   "template": "值班管理日志3.0-测试",
-  "expected_store_count": 34,
-  "record_count": 34,
+  "expected_store_count": 33,
+  "record_count": 33,
   "audit": {
     "missing_log_count": 0,
-    "suspected_anomaly_count": 0,
+    "suspected_anomaly_count": 2,
     "duplicate_image_store_count": 2,
     "missing_stores": [],
-    "suspected_anomalies": [],
+    "suspected_anomalies": [
+      {
+        "store": "深圳平安金融中心店",
+        "creator": "蔡慧慧",
+        "reason": "效期图片与其他业务日期重复"
+      },
+      {
+        "store": "深圳万象前海店",
+        "creator": "盘繁昌",
+        "reason": "效期图片与其他业务日期重复"
+      }
+    ],
     "duplicate_images": [
       {
         "store": "深圳平安金融中心店",
@@ -53,8 +64,8 @@
     "date_rule": "按值班日志内选择的业务日期归属，不按日志提交时间归属",
     "duplicate_rule": "仅与其他业务日期的历史效期图片按SHA-256比对；同一业务日期内部相同图片不计入重复图片",
     "duplicate_check": {
-      "current_image_count": 87,
-      "historical_image_count": 1742,
+      "current_image_count": 86,
+      "historical_image_count": 2114,
       "cross_business_date_match_count": 4
     }
   },
@@ -168,22 +179,6 @@
       ],
       "daily_report_images": [
         "https://static.dingtalk.com/media/lADPM3Nv8WTJ8c_NAvDNBJI_1170_752.jpg"
-      ],
-      "weekly_operation_images": []
-    },
-    {
-      "report_id": "1a0773a5cde413bf69f89334fd2b563c",
-      "template": "值班管理日志3.0-测试",
-      "creator": "杨炜斌",
-      "store": "深圳欢乐港湾店",
-      "department": "深圳欢乐港湾店",
-      "business_date": "2026-09-06",
-      "create_time": 1788706709000,
-      "expiry_images": [
-        "https://static.dingtalk.com/media/lADPM3kD2VxMWE_NBQDNA8E_961_1280.jpg"
-      ],
-      "daily_report_images": [
-        "https://static.dingtalk.com/media/lADPM25kdcXlng_NAvbNBJs_1179_758.jpg"
       ],
       "weekly_operation_images": []
     },

@@ -2,35 +2,28 @@
   "synced_at": "2026-08-24T10:41:36+08:00",
   "business_date": "2026-08-17",
   "template": "值班管理日志3.0-测试",
-  "expected_store_count": 34,
-  "record_count": 34,
+  "expected_store_count": 33,
+  "record_count": 33,
   "audit": {
     "missing_log_count": 0,
     "suspected_anomaly_count": 1,
-    "duplicate_image_store_count": 1,
+    "duplicate_image_store_count": 0,
     "missing_stores": [],
     "suspected_anomalies": [
       {
         "store": "深圳kkone店",
         "creator": "姚益",
-        "reason": "重复图：同店连日 深圳kkone店(2026-06-21) 图片一致"
+        "reason": "未上传每日报数照片"
       }
     ],
-    "duplicate_images": [
-      {
-        "store": "深圳kkone店",
-        "creator": "姚益",
-        "reason": "效期表照片与其他业务日期重复（图片内容完全一致）",
-        "matches": [
-          {
-            "date": "2026-06-21",
-            "store": "深圳kkone店"
-          }
-        ]
-      }
-    ],
+    "duplicate_images": [],
     "date_rule": "按值班日志内选择的业务日期归属，不按日志提交时间归属",
-    "duplicate_rule": "照片异常需显示具体原因；重复照片同时显示匹配的业务日期和门店"
+    "duplicate_rule": "照片异常需显示具体原因；重复照片同时显示匹配的业务日期和门店",
+    "duplicate_check": {
+      "current_image_count": 33,
+      "historical_image_count": 2167,
+      "cross_business_date_match_count": 0
+    }
   },
   "records": [
     {
@@ -428,22 +421,6 @@
       ],
       "daily_report_images": [
         "https://static.dingtalk.com/media/lADPM1obPss9BCfNBNjNBF8_1119_1240.jpg"
-      ],
-      "weekly_operation_images": []
-    },
-    {
-      "report_id": "1a0103539e4947d366dcdf844b1918ab",
-      "template": "值班管理日志3.0-测试",
-      "creator": "谢清梅",
-      "store": "深圳欢乐港湾店",
-      "department": "深圳欢乐港湾店",
-      "business_date": "2026-08-17",
-      "create_time": 1786978319000,
-      "expiry_images": [
-        "https://static.dingtalk.com/media/lADPM2e_tJgw3AfNC9DND8A_4032_3024.jpg"
-      ],
-      "daily_report_images": [
-        "https://static.dingtalk.com/media/lADPM2DAACk8A8fNA5PNAvw_764_915.jpg"
       ],
       "weekly_operation_images": []
     },

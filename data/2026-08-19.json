@@ -2,17 +2,47 @@
   "synced_at": "2026-08-24T10:41:36+08:00",
   "business_date": "2026-08-19",
   "template": "值班管理日志3.0-测试",
-  "expected_store_count": 34,
-  "record_count": 34,
+  "expected_store_count": 33,
+  "record_count": 33,
   "audit": {
     "missing_log_count": 0,
-    "suspected_anomaly_count": 0,
-    "duplicate_image_store_count": 0,
+    "suspected_anomaly_count": 2,
+    "duplicate_image_store_count": 1,
     "missing_stores": [],
-    "suspected_anomalies": [],
-    "duplicate_images": [],
+    "suspected_anomalies": [
+      {
+        "store": "东莞汇一城店",
+        "creator": "陈长明",
+        "reason": "未上传每日报数照片"
+      },
+      {
+        "store": "深圳万象前海店",
+        "creator": "盘繁昌",
+        "reason": "效期图片与其他业务日期重复"
+      }
+    ],
+    "duplicate_images": [
+      {
+        "store": "深圳万象前海店",
+        "creator": "盘繁昌",
+        "reason": "效期图片与其他业务日期重复（SHA-256一致）",
+        "matches": [
+          {
+            "sha256": "7e2f02aaa70620f3abf84081e3fa52227cdda9897f2edb472f57d7e8f7255aa4",
+            "date": "2026-09-06",
+            "store": "深圳万象前海店",
+            "image_url": "https://static.dingtalk.com/media/lADPD0m0dZEZC2_NBQDNA8A_960_1280.jpg"
+          }
+        ]
+      }
+    ],
     "date_rule": "按值班日志内选择的业务日期归属，不按日志提交时间归属",
-    "duplicate_rule": "照片异常需显示具体原因；重复照片同时显示匹配的业务日期和门店"
+    "duplicate_rule": "照片异常需显示具体原因；重复照片同时显示匹配的业务日期和门店",
+    "duplicate_check": {
+      "current_image_count": 33,
+      "historical_image_count": 2167,
+      "cross_business_date_match_count": 1
+    }
   },
   "records": [
     {
@@ -410,22 +440,6 @@
       ],
       "daily_report_images": [
         "https://static.dingtalk.com/media/lADPM1_luL9AcUvNBQDNBE0_1101_1280.jpg"
-      ],
-      "weekly_operation_images": []
-    },
-    {
-      "report_id": "1a01a910952a0690a403420452aa67f2",
-      "template": "值班管理日志3.0-测试",
-      "creator": "吴伟",
-      "store": "深圳欢乐港湾店",
-      "department": "深圳欢乐港湾店",
-      "business_date": "2026-08-19",
-      "create_time": 1787152108000,
-      "expiry_images": [
-        "https://static.dingtalk.com/media/lADPD1dGuqDpTYvNBQDNA8A_960_1280.jpg"
-      ],
-      "daily_report_images": [
-        "https://static.dingtalk.com/media/lALPD0ZmoOrS16vNBP_NBCw_1068_1279.png"
       ],
       "weekly_operation_images": []
     },

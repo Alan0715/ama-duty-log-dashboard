@@ -2,21 +2,53 @@
   "synced_at": "2026-09-04T10:50:37+08:00",
   "business_date": "2026-09-03",
   "template": "值班管理日志3.0-测试",
-  "expected_store_count": 34,
-  "record_count": 34,
+  "expected_store_count": 33,
+  "record_count": 33,
   "audit": {
     "missing_log_count": 0,
-    "suspected_anomaly_count": 0,
-    "duplicate_image_store_count": 0,
+    "suspected_anomaly_count": 1,
+    "duplicate_image_store_count": 1,
     "missing_stores": [],
-    "suspected_anomalies": [],
-    "duplicate_images": [],
+    "suspected_anomalies": [
+      {
+        "store": "深圳平安金融中心店",
+        "creator": "蔡慧慧",
+        "reason": "效期图片与其他业务日期重复"
+      }
+    ],
+    "duplicate_images": [
+      {
+        "store": "深圳平安金融中心店",
+        "creator": "蔡慧慧",
+        "reason": "效期图片与其他业务日期重复（SHA-256一致）",
+        "matches": [
+          {
+            "sha256": "bdeeb12abd31b16c78e7150567c8ae0e1095b8177f72b43b00b11bd36f854729",
+            "date": "2026-09-04",
+            "store": "深圳平安金融中心店",
+            "image_url": "https://static.dingtalk.com/media/lADPM2cKt0fG8u_NBQDNA8A_960_1280.jpg"
+          },
+          {
+            "sha256": "bdeeb12abd31b16c78e7150567c8ae0e1095b8177f72b43b00b11bd36f854729",
+            "date": "2026-09-05",
+            "store": "深圳平安金融中心店",
+            "image_url": "https://static.dingtalk.com/media/lADPM2Ctz23fChfNBQDNA8A_960_1280.jpg"
+          },
+          {
+            "sha256": "bdeeb12abd31b16c78e7150567c8ae0e1095b8177f72b43b00b11bd36f854729",
+            "date": "2026-09-06",
+            "store": "深圳平安金融中心店",
+            "image_url": "https://static.dingtalk.com/media/lADPM3GgGcrHM2_NBQDNA8A_960_1280.jpg"
+          }
+        ]
+      }
+    ],
     "date_rule": "按值班日志内选择的业务日期归属，不按日志提交时间归属",
     "duplicate_rule": "仅与其他业务日期的历史效期图片按SHA-256比对；同一业务日期内部相同图片不计入重复图片",
     "duplicate_check": {
-      "current_image_count": 87,
-      "historical_image_count": 1476,
-      "cross_business_date_match_count": 0
+      "current_image_count": 86,
+      "historical_image_count": 2114,
+      "cross_business_date_match_count": 3
     }
   },
   "records": [
@@ -130,22 +162,6 @@
       ],
       "daily_report_images": [
         "https://static.dingtalk.com/media/lADPD1oDCjMZhTfNAvDNBJI_1170_752.jpg"
-      ],
-      "weekly_operation_images": []
-    },
-    {
-      "report_id": "1a067b0b9cd2ccae050cca54b2d9ea56",
-      "template": "值班管理日志3.0-测试",
-      "creator": "谢清梅",
-      "store": "深圳欢乐港湾店",
-      "department": "深圳欢乐港湾店",
-      "business_date": "2026-09-03",
-      "create_time": 1788446030000,
-      "expiry_images": [
-        "https://static.dingtalk.com/media/lADPM2AcSoZmHvfNC9DND8A_4032_3024.jpg"
-      ],
-      "daily_report_images": [
-        "https://static.dingtalk.com/media/lALPM2--EWUexxfNAevNAvw_764_491.png"
       ],
       "weekly_operation_images": []
     },
