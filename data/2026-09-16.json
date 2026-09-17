@@ -1,25 +1,20 @@
 {
-  "synced_at": "2026-09-17T09:49:01+08:00",
+  "synced_at": "2026-09-17T10:07:59+08:00",
   "business_date": "2026-09-16",
   "template": "值班管理日志3.0-测试",
   "expected_store_count": 33,
-  "record_count": 32,
+  "record_count": 33,
   "audit": {
-    "missing_log_count": 1,
+    "missing_log_count": 0,
     "suspected_anomaly_count": 0,
     "duplicate_image_store_count": 0,
-    "missing_stores": [
-      {
-        "store": "深圳怀德万象汇店",
-        "reason": "未找到该业务日值班日志"
-      }
-    ],
+    "missing_stores": [],
     "suspected_anomalies": [],
     "duplicate_images": [],
     "date_rule": "按值班日志内选择的业务日期归属，不按日志提交时间归属",
     "duplicate_rule": "仅与其他业务日期的历史效期图片按SHA-256比对；同一业务日期内部相同图片不计入重复图片",
     "duplicate_check": {
-      "current_image_count": 97,
+      "current_image_count": 101,
       "historical_image_count": 2641,
       "cross_business_date_match_count": 0
     }
@@ -31,6 +26,9 @@
       "creator": "钟高俊",
       "store": "深圳ONE AVENUE卓悦中心店",
       "department": "深圳ONE AVENUE卓悦中心店",
+      "selected_stores": [
+        "深圳ONE AVENUE卓悦中心店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789571085000,
       "expiry_images": [
@@ -51,6 +49,9 @@
       "creator": "王瑞灵",
       "store": "深圳金光华店",
       "department": "深圳金光华店",
+      "selected_stores": [
+        "深圳金光华店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789572060000,
       "expiry_images": [
@@ -73,6 +74,9 @@
       "creator": "陈碧君",
       "store": "深圳万象食家店",
       "department": "深圳万象食家店",
+      "selected_stores": [
+        "深圳万象食家店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789571940000,
       "expiry_images": [
@@ -97,6 +101,9 @@
       "creator": "王海洋",
       "store": "深圳天安云谷店",
       "department": "深圳天安云谷店",
+      "selected_stores": [
+        "深圳天安云谷店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789568545000,
       "expiry_images": [
@@ -119,6 +126,9 @@
       "creator": "谢清梅",
       "store": "深圳平安金融中心店",
       "department": "深圳平安金融中心店",
+      "selected_stores": [
+        "深圳平安金融中心店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789570480000,
       "expiry_images": [
@@ -143,6 +153,9 @@
       "creator": "钟丽霞",
       "store": "深圳梅林卓悦汇店",
       "department": "深圳梅林卓悦汇店",
+      "selected_stores": [
+        "深圳梅林卓悦汇店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789573950000,
       "expiry_images": [
@@ -161,6 +174,9 @@
       "creator": "陈锦欢",
       "store": "深圳仁恒梦中心店",
       "department": "深圳仁恒梦中心店",
+      "selected_stores": [
+        "深圳仁恒梦中心店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789572180000,
       "expiry_images": [
@@ -180,6 +196,9 @@
       "creator": "郑贵畅",
       "store": "深圳kkone店",
       "department": "深圳kkone店",
+      "selected_stores": [
+        "深圳kkone店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789571678000,
       "expiry_images": [
@@ -198,6 +217,9 @@
       "creator": "傅伟君",
       "store": "深圳布吉万象汇店",
       "department": "深圳布吉万象汇店",
+      "selected_stores": [
+        "深圳布吉万象汇店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789570689000,
       "expiry_images": [
@@ -216,6 +238,9 @@
       "creator": "盘繁昌",
       "store": "深圳万象前海店",
       "department": "深圳万象前海店",
+      "selected_stores": [
+        "深圳万象前海店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789568504000,
       "expiry_images": [
@@ -236,6 +261,9 @@
       "creator": "谢伟民",
       "store": "深圳宝安壹方城店",
       "department": "深圳宝安壹方城店",
+      "selected_stores": [
+        "深圳宝安壹方城店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789568761000,
       "expiry_images": [
@@ -249,11 +277,37 @@
       ]
     },
     {
+      "report_id": "1a0aa962186b7b1b5bc9a4d4f09bb9e2",
+      "template": "值班管理日志3.0-测试",
+      "creator": "张思媚",
+      "store": "深圳怀德万象汇店",
+      "department": "深圳怀德万象汇店",
+      "selected_stores": [
+        "深圳怀德万象汇店",
+        "顺德万象汇店"
+      ],
+      "business_date": "2026-09-16",
+      "create_time": 1789568361000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPD18qt1VnmYPNA4jNBLY_1206_904.jpg",
+        "https://static.dingtalk.com/media/lADPD1hPZDeLcQPNA4jNBLY_1206_904.jpg",
+        "https://static.dingtalk.com/media/lADPD1jyMNzTooPNA4jNBLY_1206_904.jpg",
+        "https://static.dingtalk.com/media/lADPM21CVM6pLUPNA4jNBLY_1206_904.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lALPD0sqQt_XdgPNArLNAvQ_756_690.png"
+      ],
+      "weekly_operation_images": []
+    },
+    {
       "report_id": "1a0aa380fdfd33a0cc01bc44e569ee81",
       "template": "值班管理日志3.0-测试",
       "creator": "张开鑫",
       "store": "深圳腾讯总部园区店",
       "department": "深圳腾讯总部园区店",
+      "selected_stores": [
+        "深圳腾讯总部园区店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789562196000,
       "expiry_images": [
@@ -272,6 +326,9 @@
       "creator": "陈厚童",
       "store": "厦门万象城店",
       "department": "厦门万象城店",
+      "selected_stores": [
+        "厦门万象城店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789574660000,
       "expiry_images": [
@@ -291,6 +348,9 @@
       "creator": "刘婷婷",
       "store": "厦门SM新生活广场店·集",
       "department": "厦门SM新生活广场店·集",
+      "selected_stores": [
+        "厦门SM新生活广场店·集"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789572924000,
       "expiry_images": [
@@ -311,6 +371,9 @@
       "creator": "黄梓豪",
       "store": "深圳科兴科学园店",
       "department": "深圳科兴科学园店",
+      "selected_stores": [
+        "深圳科兴科学园店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789566655000,
       "expiry_images": [
@@ -329,6 +392,9 @@
       "creator": "成柳",
       "store": "深圳来福士广场店",
       "department": "深圳来福士广场店",
+      "selected_stores": [
+        "深圳来福士广场店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789570217000,
       "expiry_images": [
@@ -347,6 +413,9 @@
       "creator": "韦伟杰",
       "store": "深圳海上世界店",
       "department": "深圳海上世界店",
+      "selected_stores": [
+        "深圳海上世界店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789571034000,
       "expiry_images": [
@@ -365,6 +434,9 @@
       "creator": "黄崇香",
       "store": "深圳万象天地店·茶歇",
       "department": "深圳万象天地店·茶歇",
+      "selected_stores": [
+        "深圳万象天地店·茶歇"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789570436000,
       "expiry_images": [
@@ -381,6 +453,9 @@
       "creator": "王梓",
       "store": "深圳湾万象城店",
       "department": "深圳湾万象城店",
+      "selected_stores": [
+        "深圳湾万象城店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789570070000,
       "expiry_images": [
@@ -397,6 +472,9 @@
       "creator": "巫燕华",
       "store": "深圳宝安大仟里店",
       "department": "深圳宝安大仟里店",
+      "selected_stores": [
+        "深圳宝安大仟里店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789568332000,
       "expiry_images": [
@@ -415,6 +493,9 @@
       "creator": "吴美基",
       "store": "广州太古汇店",
       "department": "广州太古汇店",
+      "selected_stores": [
+        "广州太古汇店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789570741000,
       "expiry_images": [
@@ -431,6 +512,9 @@
       "creator": "肖湘湘",
       "store": "广州天环广场店",
       "department": "广州万象城店·集",
+      "selected_stores": [
+        "广州天环广场店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789571306000,
       "expiry_images": [
@@ -449,6 +533,9 @@
       "creator": "何艳婷",
       "store": "广州塔广场店",
       "department": "广州塔广场店",
+      "selected_stores": [
+        "广州塔广场店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789570775000,
       "expiry_images": [
@@ -465,6 +552,9 @@
       "creator": "孔慧珊",
       "store": "广州天汇广场店",
       "department": "广州天汇广场店",
+      "selected_stores": [
+        "广州天汇广场店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789573487000,
       "expiry_images": [
@@ -484,6 +574,9 @@
       "creator": "杜巍锋",
       "store": "佛山岭南天地店",
       "department": "佛山万象天地店·集",
+      "selected_stores": [
+        "佛山岭南天地店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789570843000,
       "expiry_images": [
@@ -506,6 +599,9 @@
       "creator": "邬浩贤",
       "store": "广州永庆坊店·茶肆",
       "department": "广州永庆坊店·茶肆",
+      "selected_stores": [
+        "广州永庆坊店·茶肆"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789571722000,
       "expiry_images": [
@@ -523,6 +619,9 @@
       "creator": "方明琪",
       "store": "东莞汇一城店",
       "department": "东莞汇一城店",
+      "selected_stores": [
+        "东莞汇一城店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789572728000,
       "expiry_images": [
@@ -545,6 +644,9 @@
       "creator": "陈健平",
       "store": "东莞记忆店·茶肆",
       "department": "东莞记忆店·茶肆",
+      "selected_stores": [
+        "东莞记忆店·茶肆"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789571001000,
       "expiry_images": [
@@ -569,6 +671,9 @@
       "creator": "杨世勇",
       "store": "广州乐峰广场店",
       "department": "广州乐峰广场店",
+      "selected_stores": [
+        "广州乐峰广场店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789572582000,
       "expiry_images": [
@@ -595,6 +700,9 @@
       "creator": "钟丽华",
       "store": "珠海富华里店",
       "department": "珠海富华里店",
+      "selected_stores": [
+        "珠海富华里店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789570716000,
       "expiry_images": [
@@ -619,6 +727,9 @@
       "creator": "卢德辉",
       "store": "顺德万象汇店",
       "department": "佛山万象天地店·集",
+      "selected_stores": [
+        "顺德万象汇店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789572637000,
       "expiry_images": [
@@ -637,6 +748,9 @@
       "creator": "陈力维",
       "store": "珠海万象汇店",
       "department": "珠海万象汇店",
+      "selected_stores": [
+        "珠海万象汇店"
+      ],
       "business_date": "2026-09-16",
       "create_time": 1789571528000,
       "expiry_images": [
