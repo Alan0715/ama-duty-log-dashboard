@@ -1,0 +1,724 @@
+{
+  "synced_at": "2026-09-18T18:43:08+08:00",
+  "business_date": "2026-09-17",
+  "template": "值班管理日志3.0-测试",
+  "expected_store_count": 33,
+  "record_count": 32,
+  "audit": {
+    "missing_log_count": 1,
+    "suspected_anomaly_count": 0,
+    "duplicate_image_store_count": 0,
+    "missing_stores": [
+      {
+        "store": "东莞记忆店·茶肆",
+        "reason": "未找到该业务日值班日志"
+      }
+    ],
+    "suspected_anomalies": [],
+    "duplicate_images": [],
+    "date_rule": "按值班日志内选择的业务日期归属，不按日志提交时间归属",
+    "duplicate_rule": "仅与其他业务日期的历史效期图片按SHA-256比对；同一业务日期内部相同图片不计入重复图片",
+    "duplicate_check": {
+      "current_image_count": 98,
+      "historical_image_count": 2742,
+      "cross_business_date_match_count": 0
+    }
+  },
+  "records": [
+    {
+      "report_id": "1a0afe41c4382713a69db7b478aab2cd",
+      "template": "值班管理日志3.0-测试",
+      "creator": "钟高俊",
+      "store": "深圳ONE AVENUE卓悦中心店",
+      "department": "深圳ONE AVENUE卓悦中心店",
+      "selected_stores": [
+        "深圳ONE AVENUE卓悦中心店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789657357000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPM26Ap4N6skvNA8DNBQA_1280_960.jpg",
+        "https://static.dingtalk.com/media/lADPD1YJUIcxpcvNA8DNBQA_1280_960.jpg",
+        "https://static.dingtalk.com/media/lADPD0Shs14pnMvNA27NBJI_1170_878.jpg",
+        "https://static.dingtalk.com/media/lADPM3XTH3ufKivNA27NBJI_1170_878.jpg",
+        "https://static.dingtalk.com/media/lADPM3jGAQkvBavNBQDNA8A_960_1280.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lADPM19vfNLheZvNBQDNBG0_1133_1280.jpg"
+      ],
+      "weekly_operation_images": []
+    },
+    {
+      "report_id": "1a0afda62c2ae29f5c6a2774113871bc",
+      "template": "值班管理日志3.0-测试",
+      "creator": "王瑞灵",
+      "store": "深圳金光华店",
+      "department": "深圳金光华店",
+      "selected_stores": [
+        "深圳金光华店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789656720000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPD1jgAFcd6pvNA8HNBQA_1280_961.jpg_810x10000.jpg",
+        "https://static.dingtalk.com/media/lADPD2P1n-GH3hvNA8HNBQA_1280_961.jpg_810x10000.jpg",
+        "https://static.dingtalk.com/media/lADPM1whqFddQhvNA8HNBQA_1280_961.jpg_810x10000.jpg",
+        "https://static.dingtalk.com/media/lADPM1otb2WNNtvNA8HNBQA_1280_961.jpg_810x10000.jpg",
+        "https://static.dingtalk.com/media/lADPM3jWX_fD-9vNA8HNBQA_1280_961.jpg_810x10000.jpg",
+        "https://static.dingtalk.com/media/lADPD1gqGiYgzVvNA8HNBQA_1280_961.jpg_810x10000.jpg",
+        "https://static.dingtalk.com/media/lADPM3tA1NTE81vNBQDNA8A_960_1280.jpg_810x10000.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lADPM2DSMLV8qhvNBUTNBQo_1290_1348.jpg"
+      ],
+      "weekly_operation_images": [
+        "https://static.dingtalk.com/media/lADPM2DSMNs3elvNBQDNA8A_960_1280.jpg_810x10000.jpg"
+      ]
+    },
+    {
+      "report_id": "1a0afe1a0d2f8ffbcdcd3f94982a05d0",
+      "template": "值班管理日志3.0-测试",
+      "creator": "林宇诗",
+      "store": "深圳万象食家店",
+      "department": "深圳万象食家店",
+      "selected_stores": [
+        "深圳万象食家店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789657195000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPM3gFMOUW6xvNBQDNBQA_1280_1280.jpg",
+        "https://static.dingtalk.com/media/lADPM2OgsO7b53vNBQDNBQA_1280_1280.jpg",
+        "https://static.dingtalk.com/media/lADPM2rpJ8Vqu3vNA4jNBLY_1206_904.jpg",
+        "https://static.dingtalk.com/media/lADPD0lHUdiqQzvNBwjNCWA_2400_1800.jpg",
+        "https://static.dingtalk.com/media/lADPM3nL8BbR4LvNBwjNCWA_2400_1800.jpg",
+        "https://static.dingtalk.com/media/lADPM2QN1Le1tLvNEADNDAA_3072_4096.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lALPD14Y9WkTclvNAk3NAls_603_589.png"
+      ],
+      "weekly_operation_images": []
+    },
+    {
+      "report_id": "1a0afcf933285f9d6f0fba144c284e21",
+      "template": "值班管理日志3.0-测试",
+      "creator": "王海洋",
+      "store": "深圳天安云谷店",
+      "department": "深圳天安云谷店",
+      "selected_stores": [
+        "深圳天安云谷店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789656012000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPD1GgodbPFrvNA8DNBQA_1280_960.jpg",
+        "https://static.dingtalk.com/media/lADPD1d9TGHrgrvNA8DNBQA_1280_960.jpg",
+        "https://static.dingtalk.com/media/lADPD0flhsMTArvNBDjNAyo_810_1080.jpg",
+        "https://static.dingtalk.com/media/lADPD0ZCP8sanbvNA8DNBQA_1280_960.jpg",
+        "https://static.dingtalk.com/media/lADPD1z_A9WUZ3vNBQDNAtA_720_1280.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lALPM3SAypbNdDvNA7TNAzU_821_948.png"
+      ],
+      "weekly_operation_images": [
+        "https://static.dingtalk.com/media/lADPM2IQg35pQ3vNBQDNA8A_960_1280.jpg"
+      ]
+    },
+    {
+      "report_id": "1a0afbfe2589783f23104374845b2669",
+      "template": "值班管理日志3.0-测试",
+      "creator": "谢清梅",
+      "store": "深圳平安金融中心店",
+      "department": "深圳平安金融中心店",
+      "selected_stores": [
+        "深圳平安金融中心店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789654983000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPD2UHYeOaShvNA27NBJI_1170_878.jpg",
+        "https://static.dingtalk.com/media/lADPM2htay3LQ1vNA27NBJI_1170_878.jpg",
+        "https://static.dingtalk.com/media/lADPD01eJeVM0FvNA27NBJI_1170_878.jpg",
+        "https://static.dingtalk.com/media/lADPD1OU2o-iNFvNA27NBJI_1170_878.jpg",
+        "https://static.dingtalk.com/media/lADPD2LkxtjbE9vNBQDNA8A_960_1280.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lALPM3hFw8JOWBvNA17NAvw_764_862.png"
+      ],
+      "weekly_operation_images": []
+    },
+    {
+      "report_id": "1a0b000df485df668de1b4c491e93f23",
+      "template": "值班管理日志3.0-测试",
+      "creator": "钟丽霞",
+      "store": "深圳梅林卓悦汇店",
+      "department": "深圳梅林卓悦汇店",
+      "selected_stores": [
+        "深圳梅林卓悦汇店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789659242000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPD2KJ08iG-XvNC9DND8A_4032_3024.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lALPM3ML5dhk43vNAhTNBFE_1105_532.png"
+      ],
+      "weekly_operation_images": [
+        "https://static.dingtalk.com/media/lADPD1rCCJQH_vvNC9DND8A_4032_3024.jpg"
+      ]
+    },
+    {
+      "report_id": "1a0afc42e8a4fd9e7aa39c64163adc82",
+      "template": "值班管理日志3.0-测试",
+      "creator": "陈锦欢",
+      "store": "深圳仁恒梦中心店",
+      "department": "深圳仁恒梦中心店",
+      "selected_stores": [
+        "深圳仁恒梦中心店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789658520000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPD0kZ2E1CvkvNA8HNBQA_1280_961.jpg",
+        "https://static.dingtalk.com/media/lADPM2_I-2lTssvNA8HNBQA_1280_961.jpg",
+        "https://static.dingtalk.com/media/lADPD14Z3k1G5ovNA8HNBQA_1280_961.jpg",
+        "https://static.dingtalk.com/media/lADPM1lmQX3Y5UvNBQDNA8A_960_1280.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lADPM18CWRTwCBvNAefNAxI_786_487.jpg"
+      ],
+      "weekly_operation_images": [
+        "https://static.dingtalk.com/media/lADPM3CPQINP34vNC9DND8A_4032_3024.jpg"
+      ]
+    },
+    {
+      "report_id": "1a0afdb5888e09e8f2cfae3498abe573",
+      "template": "值班管理日志3.0-测试",
+      "creator": "郑贵畅",
+      "store": "深圳kkone店",
+      "department": "深圳kkone店",
+      "selected_stores": [
+        "深圳kkone店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789656783000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPM3wI64DMUpvNBQDNA8A_960_1280.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lALPM1l3iUlOKJvNAhTNBFE_1105_532.png"
+      ],
+      "weekly_operation_images": [
+        "https://static.dingtalk.com/media/lADPD0UfNediPJvNBQDNA8A_960_1280.jpg"
+      ]
+    },
+    {
+      "report_id": "1a0affd02111b5cb2cd1bcd4435b5363",
+      "template": "值班管理日志3.0-测试",
+      "creator": "杨秋静",
+      "store": "深圳布吉万象汇店",
+      "department": "深圳布吉万象汇店",
+      "selected_stores": [
+        "深圳布吉万象汇店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789658989000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPD1u3mN7ONjvNBQDNA8A_960_1280.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lADPM1w88TZw39vNAhTNBFE_1105_532.jpg"
+      ],
+      "weekly_operation_images": [
+        "https://static.dingtalk.com/media/lADPD1KoYsHH5DvNBQDNA8A_960_1280.jpg"
+      ]
+    },
+    {
+      "report_id": "1a0afa4eccc2c0bbe642a0644dd93e1b",
+      "template": "值班管理日志3.0-测试",
+      "creator": "王青",
+      "store": "深圳万象前海店",
+      "department": "深圳万象前海店",
+      "selected_stores": [
+        "深圳万象前海店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789653216000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPM3kqDF8vzxvNA8DNBQA_1280_960.jpg",
+        "https://static.dingtalk.com/media/lADPM3YH35vslhvNA8DNBQA_1280_960.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lALPM2yw0ARC7lvNAhTNBFE_1105_532.png"
+      ],
+      "weekly_operation_images": [
+        "https://static.dingtalk.com/media/lADPM3GXAU8nKbvNBQDNA8A_960_1280.jpg"
+      ]
+    },
+    {
+      "report_id": "1a0afc7789ff75d33b2412e4ab2a6e9d",
+      "template": "值班管理日志3.0-测试",
+      "creator": "谢伟民",
+      "store": "深圳宝安壹方城店",
+      "department": "深圳宝安壹方城店",
+      "selected_stores": [
+        "深圳宝安壹方城店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789655480000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPD1WTFLDSxbvNBQDNA78_959_1280.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lALPD1wbpD3o3PvNAuLNBGU_1125_738.png"
+      ],
+      "weekly_operation_images": []
+    },
+    {
+      "report_id": "1a0afb0731b4f4bbca5262542548fa2b",
+      "template": "值班管理日志3.0-测试",
+      "creator": "张思媚",
+      "store": "深圳怀德万象汇店",
+      "department": "深圳怀德万象汇店",
+      "selected_stores": [
+        "深圳怀德万象汇店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789653972000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPM2pp03xuC9vNA4jNBLY_1206_904.jpg",
+        "https://static.dingtalk.com/media/lADPD2Z9L3KOHNvNA4jNBLY_1206_904.jpg",
+        "https://static.dingtalk.com/media/lADPM3Zju6OtQVvNA4jNBLY_1206_904.jpg",
+        "https://static.dingtalk.com/media/lADPD17rDU3PV9vNA4jNBLY_1206_904.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lALPM3nwUXVsNLvNArLNAvQ_756_690.png"
+      ],
+      "weekly_operation_images": []
+    },
+    {
+      "report_id": "1a0af579841107e919d5e2f4c5f86275",
+      "template": "值班管理日志3.0-测试",
+      "creator": "张开鑫",
+      "store": "深圳腾讯总部园区店",
+      "department": "深圳腾讯总部园区店",
+      "selected_stores": [
+        "深圳腾讯总部园区店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789648149000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPD1mXuBeY_8vNBQDNA8A_960_1280.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lALPM2sx6itLlYvNBOHNBP8_1279_1249.png"
+      ],
+      "weekly_operation_images": []
+    },
+    {
+      "report_id": "1a0afc2ec52608c603d3a094640b3b5d",
+      "template": "值班管理日志3.0-测试",
+      "creator": "王婷婷",
+      "store": "厦门万象城店",
+      "department": "厦门万象城店",
+      "selected_stores": [
+        "厦门万象城店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789655182000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPM2Rx3-VRdXvNHKfNA1I_850_7335.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lADPD2NS0z-Uo_vNBQDNAk0_589_1280.jpg"
+      ],
+      "weekly_operation_images": []
+    },
+    {
+      "report_id": "1a0afe2b165fe7d0486009f4ef19c98e",
+      "template": "值班管理日志3.0-测试",
+      "creator": "唐虹秀",
+      "store": "厦门SM新生活广场店·集",
+      "department": "厦门SM新生活广场店·集",
+      "selected_stores": [
+        "厦门SM新生活广场店·集"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789657264000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPM17MsCINp3vNA8DNBQA_1280_960.jpg",
+        "https://static.dingtalk.com/media/lADPM28IK0Fh4HvNA8DNBQA_1280_960.jpg",
+        "https://static.dingtalk.com/media/lADPM2haUc-GHfvNA8DNBQA_1280_960.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lADPM2ABAch7J1vNArDNBSg_1320_688.jpg"
+      ],
+      "weekly_operation_images": []
+    },
+    {
+      "report_id": "1a0af9f5ec70869eb2139fc4f8e84d66",
+      "template": "值班管理日志3.0-测试",
+      "creator": "黄梓豪",
+      "store": "深圳科兴科学园店",
+      "department": "深圳科兴科学园店",
+      "selected_stores": [
+        "深圳科兴科学园店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789652852000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPM3esD1YuVhvNA8DNBQA_1280_960.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lALPD2KT1MYWM9vNAszNBeg_1512_716.png"
+      ],
+      "weekly_operation_images": []
+    },
+    {
+      "report_id": "1a0b00fbf7c8c507822ca4545f59739b",
+      "template": "值班管理日志3.0-测试",
+      "creator": "石健飞",
+      "store": "深圳来福士广场店",
+      "department": "深圳来福士广场店",
+      "selected_stores": [
+        "深圳来福士广场店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789660217000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPD1kEYX9ZVGvNBP7NAkU_581_1278.jpg_810x10000.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lALPM2nhZu-QRWvNAszNBeg_1512_716.png_810x10000.jpg"
+      ],
+      "weekly_operation_images": []
+    },
+    {
+      "report_id": "1a0afcf849e26ca0d22111a488aa1ae9",
+      "template": "值班管理日志3.0-测试",
+      "creator": "揭英依",
+      "store": "深圳海上世界店",
+      "department": "深圳海上世界店",
+      "selected_stores": [
+        "深圳海上世界店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789656008000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPM3X1rysI5nvNBQDNA8A_960_1280.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lALPD0tyHHx-2XvNAWbNAvQ_756_358.png"
+      ],
+      "weekly_operation_images": []
+    },
+    {
+      "report_id": "1a0afcf5a499fd917db0d6f408cb2238",
+      "template": "值班管理日志3.0-测试",
+      "creator": "陈泽森",
+      "store": "深圳万象天地店·茶歇",
+      "department": "深圳万象天地店·茶歇",
+      "selected_stores": [
+        "深圳万象天地店·茶歇"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789655997000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPM2eACluMElvNB4DNBaA_1440_1920.jpg_810x10000.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lALPD0we6j0s0hvNAszNBeg_1512_716.png_810x10000.jpg"
+      ],
+      "weekly_operation_images": []
+    },
+    {
+      "report_id": "1a0afcdafa0b446afa5ca6a4608886da",
+      "template": "值班管理日志3.0-测试",
+      "creator": "王梓",
+      "store": "深圳湾万象城店",
+      "department": "深圳湾万象城店",
+      "selected_stores": [
+        "深圳湾万象城店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789655888000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPM22mYDheOrvNA8DNBQA_1280_960.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lALPM24Smx9mxrvNAefNBBs_1051_487.png"
+      ],
+      "weekly_operation_images": []
+    },
+    {
+      "report_id": "1a0afc1c2431dfbee98ee1f43f8a73f5",
+      "template": "值班管理日志3.0-测试",
+      "creator": "林高帆",
+      "store": "深圳宝安大仟里店",
+      "department": "深圳宝安大仟里店",
+      "selected_stores": [
+        "深圳宝安大仟里店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789655106000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPD0fttjHKcDvNB4DNBaA_1440_1920.jpg_810x10000.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lALPD1TKFSlqGDvNAWbNAvQ_756_358.png_810x10000.jpg"
+      ],
+      "weekly_operation_images": []
+    },
+    {
+      "report_id": "1a0afe47b89ed2f0f59eaa94013b97e9",
+      "template": "值班管理日志3.0-测试",
+      "creator": "胡香香",
+      "store": "广州太古汇店",
+      "department": "广州太古汇店",
+      "selected_stores": [
+        "广州太古汇店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789657382000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPM291TxmrtHvNBQDNA8A_960_1280.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lADPD1g8SrFyPDvNA6zNBIQ_1156_940.jpg"
+      ],
+      "weekly_operation_images": [
+        "https://static.dingtalk.com/media/lADPM3Z-G7WyQLvNBQDNA8A_960_1280.jpg"
+      ]
+    },
+    {
+      "report_id": "1a0afd3d644b48742192795486d9ed8a",
+      "template": "值班管理日志3.0-测试",
+      "creator": "覃栋蓉",
+      "store": "广州天环广场店",
+      "department": "广州天环广场店",
+      "selected_stores": [
+        "广州天环广场店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789656291000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPD1WbRBjseXvNBQDNAtE_721_1280.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lADPM1wYj_k8C7vNBQDNAk8_591_1280.jpg"
+      ],
+      "weekly_operation_images": [
+        "https://static.dingtalk.com/media/lADPM3OmgyDB7bvNBQDNAtE_721_1280.jpg"
+      ]
+    },
+    {
+      "report_id": "1a0aff6ddb059e52252654f427b87faf",
+      "template": "值班管理日志3.0-测试",
+      "creator": "何艳婷",
+      "store": "广州塔广场店",
+      "department": "广州塔广场店",
+      "selected_stores": [
+        "广州塔广场店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789658587000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPM3UtmE34H1vNHCDNB4A_1920_7200.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lALPM3b0V7DeDpvNA-HNBAQ_1028_993.png"
+      ],
+      "weekly_operation_images": []
+    },
+    {
+      "report_id": "1a0b002fa05ff4d6e977fd348fca1517",
+      "template": "值班管理日志3.0-测试",
+      "creator": "孔慧珊",
+      "store": "广州天汇广场店",
+      "department": "广州天汇广场店",
+      "selected_stores": [
+        "广州天汇广场店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789659380000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPM3X-x3y5mnvNBP7NAks_587_1278.jpg",
+        "https://static.dingtalk.com/media/lADPM3OCIdrj_3vNBP7NAks_587_1278.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lALPM2Rx4B3Mr_vNAhTNAkM_579_532.png"
+      ],
+      "weekly_operation_images": []
+    },
+    {
+      "report_id": "1a0afdce48ba0a6967fbbd34c48adf0f",
+      "template": "值班管理日志3.0-测试",
+      "creator": "彭琴波",
+      "store": "佛山岭南天地店",
+      "department": "佛山岭南天地店",
+      "selected_stores": [
+        "佛山岭南天地店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789656884000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPM3WRo9ArJhvNA8DNBQA_1280_960.jpg",
+        "https://static.dingtalk.com/media/lADPD1igVj4F0RvNA8DNBQA_1280_960.jpg",
+        "https://static.dingtalk.com/media/lADPD2JKKaRUKZvNA8DNBQA_1280_960.jpg",
+        "https://static.dingtalk.com/media/lADPD0_sEw726FvNA8DNBQA_1280_960.jpg",
+        "https://static.dingtalk.com/media/lADPD1tu1mscOFvNA8DNBQA_1280_960.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lALPM3pmjVDlYtvNAmPNAhQ_532_611.png",
+        "https://static.dingtalk.com/media/lALPM1xqatSK7FvNAazNBis_1579_428.png"
+      ],
+      "weekly_operation_images": []
+    },
+    {
+      "report_id": "1a0b01ffd94420f3aab05cf46abb7069",
+      "template": "值班管理日志3.0-测试",
+      "creator": "刘权锋",
+      "store": "广州永庆坊店·茶肆",
+      "department": "广州永庆坊店·茶肆",
+      "selected_stores": [
+        "广州永庆坊店·茶肆"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789661282000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPM3nC1_bjXUvNBQDNAlA_592_1280.jpg",
+        "https://static.dingtalk.com/media/lADPM2IHayyK78vNCYTNBGU_1125_2436.jpg",
+        "https://static.dingtalk.com/media/lADPM2FIbJ2_AevNBQDNA8E_961_1280.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lADPM2nPNimL-4vNBQDNAk8_591_1280.jpg"
+      ],
+      "weekly_operation_images": []
+    },
+    {
+      "report_id": "1a0affe68889f1784009337419a8f322",
+      "template": "值班管理日志3.0-测试",
+      "creator": "方明琪",
+      "store": "东莞汇一城店",
+      "department": "东莞汇一城店",
+      "selected_stores": [
+        "东莞汇一城店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789659081000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPM3rTsQlBFLvNA3TNBJs_1179_884.jpg",
+        "https://static.dingtalk.com/media/lADPM1llWLpvTTvNA4TNBLA_1200_900.jpg",
+        "https://static.dingtalk.com/media/lADPM2OgsOoaQLvNBQDNA8E_961_1280.jpg",
+        "https://static.dingtalk.com/media/lADPM2X49TYhujvNA3TNBJs_1179_884.jpg",
+        "https://static.dingtalk.com/media/lADPM28jdDRd7bvNA3TNBJs_1179_884.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lADPM2nYToaFBZvNBQDNAk8_591_1280.jpg"
+      ],
+      "weekly_operation_images": []
+    },
+    {
+      "report_id": "1a0b0241fdaf3dedf5af0dd49d29a109",
+      "template": "值班管理日志3.0-测试",
+      "creator": "杨世勇",
+      "store": "广州乐峰广场店",
+      "department": "广州乐峰广场店",
+      "selected_stores": [
+        "广州乐峰广场店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789661553000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPM2WU6evjpvvNA4TNBLA_1200_900.jpg",
+        "https://static.dingtalk.com/media/lADPM291TvsLvTvNA4TNBLA_1200_900.jpg",
+        "https://static.dingtalk.com/media/lADPM2E_VHL6SyvNA4TNBLA_1200_900.jpg",
+        "https://static.dingtalk.com/media/lADPM2-ZsCEN_-vNA4TNBLA_1200_900.jpg",
+        "https://static.dingtalk.com/media/lADPD1D87FQ3W4vNA27NBJI_1170_878.jpg",
+        "https://static.dingtalk.com/media/lADPM281pNr9kMvNC9DND8A_4032_3024.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lADPD2Os3Wr6-tvNBQDNAlA_592_1280.jpg"
+      ],
+      "weekly_operation_images": []
+    },
+    {
+      "report_id": "1a0afe53a211e24c30e3e6a4355a2393",
+      "template": "值班管理日志3.0-测试",
+      "creator": "钟丽华",
+      "store": "珠海富华里店",
+      "department": "珠海富华里店",
+      "selected_stores": [
+        "珠海富华里店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789657431000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPM3tCpnf4sgvNA3TNBJs_1179_884.jpg",
+        "https://static.dingtalk.com/media/lADPM2d4w6YAeQvNA3TNBJs_1179_884.jpg",
+        "https://static.dingtalk.com/media/lADPM2m9BaXisYvNA3TNBJs_1179_884.jpg",
+        "https://static.dingtalk.com/media/lADPM3xaxilmjFvNA3TNBJs_1179_884.jpg",
+        "https://static.dingtalk.com/media/lADPM2NzN21BFRvNA27NBJI_1170_878.jpg",
+        "https://static.dingtalk.com/media/lADPD1T5YCooBpvNA27NBJI_1170_878.jpg",
+        "https://static.dingtalk.com/media/lADPM2H1OnJvM5vNC9DND8A_4032_3024.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lADPD16PMXJflXvNC9DND8A_4032_3024.jpg"
+      ],
+      "weekly_operation_images": [
+        "https://static.dingtalk.com/media/lADPM2t8fj-Qj4vNA27NBJI_1170_878.jpg"
+      ]
+    },
+    {
+      "report_id": "1a0afdcea61bcab03eed73741e0b3614",
+      "template": "值班管理日志3.0-测试",
+      "creator": "孔彩利",
+      "store": "顺德万象汇店",
+      "department": "顺德万象汇店",
+      "selected_stores": [
+        "顺德万象汇店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789656886000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPM2JiXkKj8BvNBDjNB4A_1920_1080.jpg_810x10000.jpg",
+        "https://static.dingtalk.com/media/lADPD14rJgN0xpvNA8HNBQA_1280_961.jpg_810x10000.jpg",
+        "https://static.dingtalk.com/media/lADPD1Aspigz7xvNA8HNBQA_1280_961.jpg_810x10000.jpg",
+        "https://static.dingtalk.com/media/lADPM2pFciipxBvNBQDNA8A_960_1280.jpg_810x10000.jpg",
+        "https://static.dingtalk.com/media/lADPM2K0OPcj0VvNBQDNA8A_960_1280.jpg_810x10000.jpg",
+        "https://static.dingtalk.com/media/lADPD0nY1r8pXTvNBQDNA8A_960_1280.jpg_810x10000.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lALPM2FJVZ3m1VvNBmzNBxg_1816_1644.png_810x10000.jpg"
+      ],
+      "weekly_operation_images": []
+    },
+    {
+      "report_id": "1a0afe88b8345e05f6edf51431288e22",
+      "template": "值班管理日志3.0-测试",
+      "creator": "陈力维",
+      "store": "珠海万象汇店",
+      "department": "珠海万象汇店",
+      "selected_stores": [
+        "珠海万象汇店"
+      ],
+      "business_date": "2026-09-17",
+      "create_time": 1789657648000,
+      "expiry_images": [
+        "https://static.dingtalk.com/media/lADPM1v9RxKbJBvNA8DNBQA_1280_960.jpg",
+        "https://static.dingtalk.com/media/lADPD0htCmFNhJvNA8DNBQA_1280_960.jpg",
+        "https://static.dingtalk.com/media/lADPD1wlpUMWKhvNA8DNBQA_1280_960.jpg",
+        "https://static.dingtalk.com/media/lADPD09bdv5pgpvNA8DNBQA_1280_960.jpg",
+        "https://static.dingtalk.com/media/lADPD0t7NMmEyhvNA8DNBQA_1280_960.jpg",
+        "https://static.dingtalk.com/media/lADPM2ecPCBvSBvNA8DNBQA_1280_960.jpg",
+        "https://static.dingtalk.com/media/lADPM2gs2BBxYVvNA8DNBQA_1280_960.jpg",
+        "https://static.dingtalk.com/media/lADPM16VNW1q8dvNBQDNA8A_960_1280.jpg"
+      ],
+      "daily_report_images": [
+        "https://static.dingtalk.com/media/lALPD1AHW-ym_nvNAmrNAqU_677_618.png"
+      ],
+      "weekly_operation_images": []
+    }
+  ]
+}
